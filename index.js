@@ -8,4 +8,4 @@ app.set("port", port) // Set the port of the project
 app.use("/", routes)
 app.listen(port, () => {
     console.log(`Server listening on port ${port}`)
-})
+}) 
